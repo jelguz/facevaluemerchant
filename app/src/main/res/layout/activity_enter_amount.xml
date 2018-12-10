@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/linearLayoutEnterAmount"
+    android:paddingTop="130dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp" >
+
+    <TextView
+        android:id="@+id/tvEnterPurchseAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter Purchase Amount"
+        android:textSize="18dp"
+        android:paddingBottom="50dp" />
+
+    <EditText
+        android:id="@+id/etPurchaseAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnOkPurchaseAmount"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:theme="@style/PinkButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLayout>

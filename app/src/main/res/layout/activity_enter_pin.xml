@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="110dp"
+    tools:context=".EnterPinActivity"
+    android:id="@+id/linearLayoutEnterPin">
+
+    <TextView
+        android:id="@+id/tvEnterPinHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="50dp"
+        android:paddingBottom="6dp"
+        android:text="Hello" />
+
+    <TextView
+        android:id="@+id/tvEnterPinName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:paddingBottom="25dp"
+        android:text="Albert Rivera" />
+
+    <TextView
+        android:id="@+id/tvEnterPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="15dp"
+        android:paddingBottom="2dp"
+        android:text="Enter your PIN" />
+
+    <EditText
+        android:id="@+id/etPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLength="6"
+        android:inputType="numberPassword" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:theme="@style/PinkButton"
+        android:id="@+id/btnEnterPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLayout>

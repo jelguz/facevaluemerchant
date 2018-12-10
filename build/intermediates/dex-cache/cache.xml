@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Jel\hacka2018\AndroidStudioProjects\FaceValueMerchant\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e84477d054622771020a2fc61e1bcbf82f66fa5">
+        <dex dex="C:\Jel\hacka2018\AndroidStudioProjects\FaceValueMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4d186b401f5558abac302ab47984c7f898a0ffdc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Jel\hacka2018\AndroidStudioProjects\FaceValueMerchant\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="C:\Jel\hacka2018\AndroidStudioProjects\FaceValueMerchant\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_04f45dcf56f426e5b2e61677ca18ea08b096aa30\classes.dex" />
+    </item>
+
+</items>

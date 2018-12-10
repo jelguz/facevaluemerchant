@@ -1,0 +1,315 @@
+Initialized native services in: C:\Users\Jel.Guzman\.gradle\native
+Found daemon DaemonInfo{pid=9092, address=[2a5ffcef-54a1-4e93-aab4-eb827f7304c8 port:64733, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1543636136259, context=DefaultDaemonContext[uid=c1073d1d-2f19-4a58-a7c9-1700cc16fd10,javaHome=C:\Program Files\Android\Android Studio\jre,daemonRegistryDir=C:\Users\Jel.Guzman\.gradle\daemon,pid=9092,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=C:\Java\64bit\jdk1.8.0_171,daemonRegistryDir=C:\Users\Jel.Guzman\.gradle\daemon,pid=13984,idleTimeout=null,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=c1073d1d-2f19-4a58-a7c9-1700cc16fd10,javaHome=C:\Program Files\Android\Android Studio\jre,daemonRegistryDir=C:\Users\Jel.Guzman\.gradle\daemon,pid=9092,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Connected to daemon DaemonInfo{pid=11032, address=[90ea8859-5d3d-4e47-9097-8f7ac44779e6 port:49981, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1543636111725, context=DefaultDaemonContext[uid=e99e377a-45b0-4d1c-a623-d43953d45d94,javaHome=C:\Java\64bit\jdk1.8.0_171,daemonRegistryDir=C:\Users\Jel.Guzman\.gradle\daemon,pid=11032,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]}. Dispatching request Build{id=c0c80895-7fa6-4367-839e-54055814e24f.1, currentDir=C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter}.
+Received result org.gradle.launcher.daemon.protocol.BuildStarted@42530531 from daemon DaemonInfo{pid=11032, address=[90ea8859-5d3d-4e47-9097-8f7ac44779e6 port:49981, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1543636111725, context=DefaultDaemonContext[uid=e99e377a-45b0-4d1c-a623-d43953d45d94,javaHome=C:\Java\64bit\jdk1.8.0_171,daemonRegistryDir=C:\Users\Jel.Guzman\.gradle\daemon,pid=11032,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be starting).
+The client will now receive all logging from the daemon (pid: 11032). The daemon log file: C:\Users\Jel.Guzman\.gradle\daemon\3.3\daemon-11032.out.log
+Starting 3rd build in daemon [uptime: 3 mins 3.178 secs, performance: 99%, no major garbage collections]
+Executing build with daemon context: DefaultDaemonContext[uid=e99e377a-45b0-4d1c-a623-d43953d45d94,javaHome=C:\Java\64bit\jdk1.8.0_171,daemonRegistryDir=C:\Users\Jel.Guzman\.gradle\daemon,pid=11032,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Creating new cache for plugin-use-metadata, path C:\Users\Jel.Guzman\.gradle\caches\3.3\plugin-resolution\plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@68e0dc97
+Creating new cache for client-status, path C:\Users\Jel.Guzman\.gradle\caches\3.3\plugin-resolution\client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@68e0dc97
+Starting Build
+Settings evaluated using settings file 'C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\build.gradle'.
+Included projects: [root project 'FaceSpotter-starter', project ':app']
+Evaluating root project 'FaceSpotter-starter' using build file 'C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\build.gradle'.
+Creating new cache for metadata-2.23/module-metadata, path C:\Users\Jel.Guzman\.gradle\caches\modules-2\metadata-2.23\module-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@395812c0
+Creating new cache for metadata-2.23/artifact-at-repository, path C:\Users\Jel.Guzman\.gradle\caches\modules-2\metadata-2.23\artifact-at-repository.bin, access org.gradle.cache.internal.DefaultCacheAccess@395812c0
+Evaluating project ':app' using build file 'C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\build.gradle'.
+Using 8 worker leases.
+Creating configuration compile
+Creating configuration apk
+Creating configuration provided
+Creating configuration wearApp
+Creating configuration annotationProcessor
+Creating configuration jackPlugin
+Creating configuration androidTestCompile
+Creating configuration androidTestApk
+Creating configuration androidTestProvided
+Creating configuration androidTestWearApp
+Creating configuration androidTestAnnotationProcessor
+Creating configuration androidTestJackPlugin
+Creating configuration testCompile
+Creating configuration testApk
+Creating configuration testProvided
+Creating configuration testWearApp
+Creating configuration testAnnotationProcessor
+Creating configuration testJackPlugin
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Creating configuration debugCompile
+Creating configuration debugApk
+Creating configuration debugProvided
+Creating configuration debugWearApp
+Creating configuration debugAnnotationProcessor
+Creating configuration debugJackPlugin
+Creating configuration testDebugCompile
+Creating configuration testDebugApk
+Creating configuration testDebugProvided
+Creating configuration testDebugWearApp
+Creating configuration testDebugAnnotationProcessor
+Creating configuration testDebugJackPlugin
+Creating configuration releaseCompile
+Creating configuration releaseApk
+Creating configuration releaseProvided
+Creating configuration releaseWearApp
+Creating configuration releaseAnnotationProcessor
+Creating configuration releaseJackPlugin
+Creating configuration testReleaseCompile
+Creating configuration testReleaseApk
+Creating configuration testReleaseProvided
+Creating configuration testReleaseWearApp
+Creating configuration testReleaseAnnotationProcessor
+Creating configuration testReleaseJackPlugin
+Parsing the SDK, no caching allowed
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\build-tools\25.0.2\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\build-tools\28.0.3\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\emulator\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\extras\android\m2repository\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\extras\google\m2repository\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\extras\intel\Hardware_Accelerated_Execution_Manager\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout\1.0.2\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\patcher\v4\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\platform-tools\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\platforms\android-25\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\platforms\android-26\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\platforms\android-27\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\platforms\android-28\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\sources\android-25\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\sources\android-28\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\system-images\android-27\google_apis\x86\package.xml
+Parsing C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\tools\package.xml
+SDK initialized in 178 ms
+Creating new cache for metadata-2.23/module-artifacts, path C:\Users\Jel.Guzman\.gradle\caches\modules-2\metadata-2.23\module-artifacts.bin, access org.gradle.cache.internal.DefaultCacheAccess@395812c0
+file or directory 'C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\libs', not found
+file or directory 'C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\libs', not found
+file or directory 'C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\libs', not found
+file or directory 'C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\libs', not found
+Using incremental javac compilation for :app debug.
+Incremental java compilation is an incubating feature.
+Not using incremental javac compilation for :app debugUnitTest.
+Using incremental javac compilation for :app release.
+Not using incremental javac compilation for :app releaseUnitTest.
+Not using incremental javac compilation for :app debugAndroidTest.
+All projects evaluated.
+Selected primary task 'assembleDebug' from project :
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:checkDebugManifest', task ':app:preReleaseBuild', task ':app:prepareComAndroidSupportAnimatedVectorDrawable2520Library', task ':app:prepareComAndroidSupportAppcompatV72520Library', task ':app:prepareComAndroidSupportConstraintConstraintLayout113Library', task ':app:prepareComAndroidSupportDesign2520Library', task ':app:prepareComAndroidSupportRecyclerviewV72520Library', task ':app:prepareComAndroidSupportSupportCompat2520Library', task ':app:prepareComAndroidSupportSupportCoreUi2520Library', task ':app:prepareComAndroidSupportSupportCoreUtils2520Library', task ':app:prepareComAndroidSupportSupportFragment2520Library', task ':app:prepareComAndroidSupportSupportMediaCompat2520Library', task ':app:prepareComAndroidSupportSupportV42520Library', task ':app:prepareComAndroidSupportSupportVectorDrawable2520Library', task ':app:prepareComAndroidSupportTransition2520Library', task ':app:prepareComGoogleAndroidGmsPlayServicesBase1020Library', task ':app:prepareComGoogleAndroidGmsPlayServicesBasement1020Library', task ':app:prepareComGoogleAndroidGmsPlayServicesTasks1020Library', task ':app:prepareComGoogleAndroidGmsPlayServicesVision1020Library', task ':app:prepareDebugDependencies', task ':app:compileDebugAidl', task ':app:compileDebugRenderscript', task ':app:generateDebugBuildConfig', task ':app:generateDebugResValues', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:processDebugManifest', task ':app:processDebugResources', task ':app:generateDebugSources', task ':app:incrementalDebugJavaCompilationSafeguard', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compileDebugNdk', task ':app:compileDebugSources', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:transformClassesWithDexForDebug', task ':app:mergeDebugJniLibFolders', task ':app:transformNativeLibsWithMergeJniLibsForDebug', task ':app:processDebugJavaRes', task ':app:transformResourcesWithMergeJavaResForDebug', task ':app:validateSigningDebug', task ':app:packageDebug', task ':app:assembleDebug']
+Creating new cache for fileHashes, path C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\.gradle\3.3\taskArtifacts\fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@60fb09a
+In-memory cache of C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\.gradle\3.3\taskArtifacts\fileHashes.bin: Size{1736}, CacheStats{hitCount=3030, missCount=1736, loadSuccessCount=1736, loadExceptionCount=0, totalLoadTime=124592060, evictionCount=0}
+Invalidating in-memory cache of C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\.gradle\3.3\taskArtifacts\fileHashes.bin
+Creating new cache for fileSnapshots, path C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\.gradle\3.3\taskArtifacts\fileSnapshots.bin, access org.gradle.cache.internal.DefaultCacheAccess@60fb09a
+In-memory cache of C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\.gradle\3.3\taskArtifacts\fileSnapshots.bin: Size{32}, CacheStats{hitCount=32, missCount=32, loadSuccessCount=32, loadExceptionCount=0, totalLoadTime=24681451, evictionCount=0}
+Invalidating in-memory cache of C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\.gradle\3.3\taskArtifacts\fileSnapshots.bin
+Creating new cache for taskArtifacts, path C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\.gradle\3.3\taskArtifacts\taskArtifacts.bin, access org.gradle.cache.internal.DefaultCacheAccess@60fb09a
+In-memory cache of C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\.gradle\3.3\taskArtifacts\taskArtifacts.bin: Size{7}, CacheStats{hitCount=7, missCount=7, loadSuccessCount=7, loadExceptionCount=0, totalLoadTime=30993306, evictionCount=0}
+Invalidating in-memory cache of C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\.gradle\3.3\taskArtifacts\taskArtifacts.bin
+:app:preBuild (Thread[Daemon worker Thread 2,5,main]) started.
+:app:preBuild
+Skipping task ':app:preBuild' as it has no actions.
+:app:preBuild UP-TO-DATE
+:app:preBuild (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:preDebugBuild (Thread[Daemon worker Thread 2,5,main]) started.
+:app:preDebugBuild
+Skipping task ':app:preDebugBuild' as it has no actions.
+:app:preDebugBuild UP-TO-DATE
+:app:preDebugBuild (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:checkDebugManifest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:checkDebugManifest
+Putting task artifact state for task ':app:checkDebugManifest' into context took 0.0 secs.
+Executing task ':app:checkDebugManifest' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:checkDebugManifest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.003 secs.
+:app:preReleaseBuild (Thread[Daemon worker Thread 2,5,main]) started.
+:app:preReleaseBuild
+Skipping task ':app:preReleaseBuild' as it has no actions.
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseBuild (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:prepareComAndroidSupportAnimatedVectorDrawable2520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportAnimatedVectorDrawable2520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportAnimatedVectorDrawable2520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportAnimatedVectorDrawable2520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportAnimatedVectorDrawable2520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.008 secs.
+:app:prepareComAndroidSupportAppcompatV72520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportAppcompatV72520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportAppcompatV72520Library' into context took 0.001 secs.
+Executing task ':app:prepareComAndroidSupportAppcompatV72520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportAppcompatV72520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.007 secs.
+:app:prepareComAndroidSupportConstraintConstraintLayout113Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportConstraintConstraintLayout113Library
+Putting task artifact state for task ':app:prepareComAndroidSupportConstraintConstraintLayout113Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportConstraintConstraintLayout113Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportConstraintConstraintLayout113Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.008 secs.
+:app:prepareComAndroidSupportDesign2520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportDesign2520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportDesign2520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportDesign2520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportDesign2520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.006 secs.
+:app:prepareComAndroidSupportRecyclerviewV72520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportRecyclerviewV72520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportRecyclerviewV72520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportRecyclerviewV72520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportRecyclerviewV72520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComAndroidSupportSupportCompat2520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportCompat2520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportCompat2520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportCompat2520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportCompat2520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComAndroidSupportSupportCoreUi2520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportCoreUi2520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportCoreUi2520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportCoreUi2520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportCoreUi2520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComAndroidSupportSupportCoreUtils2520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportCoreUtils2520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportCoreUtils2520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportCoreUtils2520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportCoreUtils2520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComAndroidSupportSupportFragment2520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportFragment2520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportFragment2520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportFragment2520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportFragment2520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComAndroidSupportSupportMediaCompat2520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportMediaCompat2520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportMediaCompat2520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportMediaCompat2520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportMediaCompat2520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComAndroidSupportSupportV42520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportV42520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportV42520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportV42520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportV42520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.006 secs.
+:app:prepareComAndroidSupportSupportVectorDrawable2520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportSupportVectorDrawable2520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportSupportVectorDrawable2520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportSupportVectorDrawable2520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportSupportVectorDrawable2520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComAndroidSupportTransition2520Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComAndroidSupportTransition2520Library
+Putting task artifact state for task ':app:prepareComAndroidSupportTransition2520Library' into context took 0.0 secs.
+Executing task ':app:prepareComAndroidSupportTransition2520Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComAndroidSupportTransition2520Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComGoogleAndroidGmsPlayServicesBase1020Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComGoogleAndroidGmsPlayServicesBase1020Library
+Putting task artifact state for task ':app:prepareComGoogleAndroidGmsPlayServicesBase1020Library' into context took 0.0 secs.
+Executing task ':app:prepareComGoogleAndroidGmsPlayServicesBase1020Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComGoogleAndroidGmsPlayServicesBase1020Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComGoogleAndroidGmsPlayServicesBasement1020Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComGoogleAndroidGmsPlayServicesBasement1020Library
+Putting task artifact state for task ':app:prepareComGoogleAndroidGmsPlayServicesBasement1020Library' into context took 0.0 secs.
+Executing task ':app:prepareComGoogleAndroidGmsPlayServicesBasement1020Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComGoogleAndroidGmsPlayServicesBasement1020Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComGoogleAndroidGmsPlayServicesTasks1020Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComGoogleAndroidGmsPlayServicesTasks1020Library
+Putting task artifact state for task ':app:prepareComGoogleAndroidGmsPlayServicesTasks1020Library' into context took 0.0 secs.
+Executing task ':app:prepareComGoogleAndroidGmsPlayServicesTasks1020Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComGoogleAndroidGmsPlayServicesTasks1020Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.005 secs.
+:app:prepareComGoogleAndroidGmsPlayServicesVision1020Library (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareComGoogleAndroidGmsPlayServicesVision1020Library
+Putting task artifact state for task ':app:prepareComGoogleAndroidGmsPlayServicesVision1020Library' into context took 0.0 secs.
+Executing task ':app:prepareComGoogleAndroidGmsPlayServicesVision1020Library' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareComGoogleAndroidGmsPlayServicesVision1020Library (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.007 secs.
+:app:prepareDebugDependencies (Thread[Daemon worker Thread 2,5,main]) started.
+:app:prepareDebugDependencies
+Putting task artifact state for task ':app:prepareDebugDependencies' into context took 0.0 secs.
+Executing task ':app:prepareDebugDependencies' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:app:prepareDebugDependencies (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.002 secs.
+:app:compileDebugAidl (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugAidl
+Putting task artifact state for task ':app:compileDebugAidl' into context took 0.005 secs.
+Task :app:compileDebugAidl class loader hash: dc838471ab7d3c4b3d21bcf001578314
+Task :app:compileDebugAidl actions class loader hash: c9d8a491526bfd2cc06453d5af391499
+Skipping task ':app:compileDebugAidl' as it is up-to-date (took 0.027 secs).
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugAidl (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.033 secs.
+:app:compileDebugRenderscript (Thread[Daemon worker Thread 2,5,main]) started.
+:app:compileDebugRenderscript
+Putting task artifact state for task ':app:compileDebugRenderscript' into context took 0.006 secs.
+Task :app:compileDebugRenderscript class loader hash: dc838471ab7d3c4b3d21bcf001578314
+Task :app:compileDebugRenderscript actions class loader hash: c9d8a491526bfd2cc06453d5af391499
+Skipping task ':app:compileDebugRenderscript' as it is up-to-date (took 0.008 secs).
+:app:compileDebugRenderscript UP-TO-DATE
+:app:compileDebugRenderscript (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.016 secs.
+:app:generateDebugBuildConfig (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugBuildConfig
+Putting task artifact state for task ':app:generateDebugBuildConfig' into context took 0.003 secs.
+Task :app:generateDebugBuildConfig class loader hash: dc838471ab7d3c4b3d21bcf001578314
+Task :app:generateDebugBuildConfig actions class loader hash: c9d8a491526bfd2cc06453d5af391499
+Skipping task ':app:generateDebugBuildConfig' as it is up-to-date (took 0.004 secs).
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugBuildConfig (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.011 secs.
+:app:generateDebugResValues (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugResValues
+Putting task artifact state for task ':app:generateDebugResValues' into context took 0.003 secs.
+Task :app:generateDebugResValues class loader hash: dc838471ab7d3c4b3d21bcf001578314
+Task :app:generateDebugResValues actions class loader hash: c9d8a491526bfd2cc06453d5af391499
+Skipping task ':app:generateDebugResValues' as it is up-to-date (took 0.002 secs).
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResValues (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.006 secs.
+:app:generateDebugResources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:generateDebugResources
+Skipping task ':app:generateDebugResources' as it has no actions.
+:app:generateDebugResources UP-TO-DATE
+:app:generateDebugResources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.001 secs.
+:app:mergeDebugResources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:mergeDebugResources
+Putting task artifact state for task ':app:mergeDebugResources' into context took 0.005 secs.
+Task :app:mergeDebugResources class loader hash: dc838471ab7d3c4b3d21bcf001578314
+Task :app:mergeDebugResources actions class loader hash: c9d8a491526bfd2cc06453d5af391499
+Skipping task ':app:mergeDebugResources' as it is up-to-date (took 0.343 secs).
+:app:mergeDebugResources UP-TO-DATE
+:app:mergeDebugResources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.352 secs.
+:app:processDebugManifest (Thread[Daemon worker Thread 2,5,main]) started.
+:app:processDebugManifest
+Putting task artifact state for task ':app:processDebugManifest' into context took 0.005 secs.
+Task :app:processDebugManifest class loader hash: dc838471ab7d3c4b3d21bcf001578314
+Task :app:processDebugManifest actions class loader hash: c9d8a491526bfd2cc06453d5af391499
+Skipping task ':app:processDebugManifest' as it is up-to-date (took 0.021 secs).
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugManifest (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.028 secs.
+:app:processDebugResources (Thread[Daemon worker Thread 2,5,main]) started.
+:app:processDebugResources
+Putting task artifact state for task ':app:processDebugResources' into context took 0.006 secs.
+Task :app:processDebugResources class loader hash: dc838471ab7d3c4b3d21bcf001578314
+Task :app:processDebugResources actions class loader hash: c9d8a491526bfd2cc06453d5af391499
+Executing task ':app:processDebugResources' (up-to-date check took 0.058 secs) due to:
+  Value of input property 'instantRunMode' has changed for task ':app:processDebugResources'
+  Value of input property 'preferredDensity' has changed for task ':app:processDebugResources'
+All input files are considered out-of-date for incremental task ':app:processDebugResources'.
+QueuedCruncher is using C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\build-tools\25.0.2\aapt.exe
+Custom package for R class: 'finastra.facespotter'
+Starting process 'command 'C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\build-tools\25.0.2\aapt.exe''. Working directory: C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app Command: C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\build-tools\25.0.2\aapt.exe package -f --no-crunch -I C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\platforms\android-25\android.jar -M \\?\C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\build\intermediates\manifests\full\debug\AndroidManifest.xml -S C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\build\intermediates\res\merged\debug -m -J \\?\C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\build\generated\source\r\debug -F C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\build\intermediates\res\resources-debug.ap_ --debug-mode --custom-package finastra.facespotter -0 apk --output-text-symbols \\?\C:\Jel\hacka2018\AndroidStudioProjects\FaceSpotter-starter\app\build\intermediates\symbols\debug --no-version-vectors
+Successfully started process 'command 'C:\Users\Jel.Guzman\AppData\Local\Android\Sdk\build-tools\25.0.2\aapt.exe''
+:app:processDebugResources FAILED
+:app:processDebugResources (Thread[Daemon worker Thread 2,5,main]) completed. Took 0.938 secs.
+
+BUILD FAILED
+
+Total time: 4.002 secs
+Stopped 0 worker daemon(s).
+Received result Failure[value=org.gradle.initialization.ReportedException: org.gradle.internal.exceptions.LocationAwareException: Execution failed for task ':app:processDebugResources'.] from daemon DaemonInfo{pid=11032, address=[90ea8859-5d3d-4e47-9097-8f7ac44779e6 port:49981, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1543636111725, context=DefaultDaemonContext[uid=e99e377a-45b0-4d1c-a623-d43953d45d94,javaHome=C:\Java\64bit\jdk1.8.0_171,daemonRegistryDir=C:\Users\Jel.Guzman\.gradle\daemon,pid=11032,idleTimeout=10800000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be done).
